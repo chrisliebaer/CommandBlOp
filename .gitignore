@@ -1,0 +1,13 @@
+# gradle related
+.gradle
+/build/
+/out/
+
+# IDE
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# binaries
+*.jar

@@ -1,0 +1,7 @@
+name: CommandBlOP
+main: chrisliebaer.commandblop.CommandBlOp
+version: "1.0"
+description: "Allows using command blocks without having to Op Players."
+author: "Chrisliebär"
+api-version: "1.14"
+depend: ["ProtocolLib", "NBTAPI"]
