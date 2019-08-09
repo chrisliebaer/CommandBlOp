@@ -7,10 +7,15 @@ apply plugin: 'java'
 apply plugin: 'idea'
 
 group = "chrisliebaer"
-version = "0.1"
+version = "0.2"
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
+}
+
+compileJava {
+	sourceCompatibility = 1.10
+	targetCompatibility = 1.10
 }
 
 repositories {
